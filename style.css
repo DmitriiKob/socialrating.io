@@ -1,0 +1,172 @@
+@font-face{font-family:gilroy-bold;font-style:normal;font-weight:400;src:local('Gilroy-Bold'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Bold.woff) format('woff')}
+@font-face{font-family:gilroy-heavy;font-style:normal;font-weight:400;src:local('Gilroy-Heavy'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Heavy.woff) format('woff')}
+@font-face{font-family:gilroy-light;font-style:normal;font-weight:400;src:local('Gilroy-Light'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Light.woff) format('woff')}
+@font-face{font-family:gilroy-medium;font-style:normal;font-weight:400;src:local('Gilroy-Medium'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Medium.woff) format('woff')}
+@font-face{font-family:gilroy-regular;font-style:normal;font-weight:400;src:local('Gilroy-Regular'),url(https://fonts.cdnfonts.com/s/16219/Gilroy-Regular.woff) format('woff')}
+
+body{
+    font-family: 'Gilroy';
+    font-style: normal;
+    background: #C5ECFD;
+    width: 100%;
+    height: auto;
+    margin: 0.5rem;
+}
+@media screen and (max-width:520px){
+    .dekstop{
+        display: none;
+    }
+    header{
+        display: flex;
+        margin-top: 2.5rem;
+        flex-direction: row;
+        align-items:center;
+        text-align: justify;
+        justify-content: space-between;
+        height: 2em;
+        padding: 0;
+        gap: 0;
+       
+    }
+    header>h1{
+        margin: 0;
+        margin-left: 2vw;
+        font-size: 24px;
+    }
+    .icon{
+        width: 36px;
+        height: 36px;
+       
+   }
+   .burger{
+    width: 30px;
+    margin-left: 25%;
+    margin-right: 2rem;
+   }
+   .hero_container{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 18.25rem;
+    margin-inline: 1rem;
+    justify-content: space-between;
+    margin-top: 37px;
+   }
+   .hero_container>p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    opacity: 0.5;
+   }
+   .hero_container>h1{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+   }
+   .hero_container>button{
+    align-items: center;
+    padding: 30px 75px;
+    gap: 10px;
+    background: #FFFFFF;
+    width: 80vw;
+    height: auto;
+    border-radius: 90px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-top: 30px;
+    margin-inline: auto;
+   }
+   h1>span{
+    opacity: 0.7;
+   }
+   .hero_img{
+    display: flex;
+    width: 90vw;
+    height: 500px;
+   }
+   .influencers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-inline: 3vw;
+    height: 708px;
+   }
+   .influencers>img{
+    width: 90vw;
+   }
+   .influencers>h1{
+    margin-top: 60px;
+   }
+   .influencers>p{
+    margin-top: 30px;
+   }
+
+    .business{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-inline: 3vw;
+    height: 708px;
+    }
+    .business>img{
+    width: 90vw;
+    }
+    .business>h1{
+    margin-top: 60px;
+    }
+    .business>p{
+    margin-top: 30px;
+    }
+    .date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-inline: 3vw;
+    height: 708px;  
+    }
+    .date>img{
+    width: 90vw;
+    }
+    .date>h1{
+    margin-top: 60px;
+    }
+    .date>p{
+    margin-top: 30px;
+    }
+    .imagine{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    margin-inline: 3vw;
+    }
+    .imagine>h1{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 150%;
+    }
+
+    .footer_form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    margin-inline: 3vw;
+    height: auto;
+    }
+    .footer_form>div{
+    background: #FFFFFF;
+    border-radius: 30px;
+    /* height: 287px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+ }
